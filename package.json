@@ -1,6 +1,6 @@
 {
   "name": "lycwed-cordova-plugin-infoplist",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Add missed permissions for ios into info.plist.",
   "cordova": {
     "id": "lycwed-cordova-plugin-infoplist",
