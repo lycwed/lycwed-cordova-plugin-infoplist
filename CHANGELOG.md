@@ -1,5 +1,9 @@
 # CHANGELOGS
 
+## [1.0.3]
+
+* Fix bug with config-file name
+
 ## [1.0.2]
 
 * Fix bug with edit-config plugin.xml

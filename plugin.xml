@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin id="lycwed-cordova-plugin-infoplist" version="1.0.2" 
+<plugin id="lycwed-cordova-plugin-infoplist" version="1.0.3" 
     xmlns="http://apache.org/cordova/ns/plugins/1.0" 
     xmlns:android="http://schemas.android.com/apk/res/android">
     <name>lycwed-cordova-plugin-infoplist</name>
     <description>Add missed permissions for ios into info.plist.</description>
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
     <platform name="ios">
-        <config-config parent="NSLocationAlwaysUsageDescription" target="*-Info.plist">
+        <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
             <string>Allow app to access the user’s location.</string>
-        </config-config>
-        <config-config parent="NSLocationWhenInUseUsageDescription" target="*-Info.plist">
+        </config-file>
+        <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
             <string>Allow app to access the user’s location.</string>
-        </config-config>
+        </config-file>
     </platform>
 </plugin>
