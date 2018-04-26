@@ -1,0 +1,1 @@
+# lycwed-cordova-plugin-infoplist
