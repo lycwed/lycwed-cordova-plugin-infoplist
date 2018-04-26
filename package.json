@@ -1,0 +1,29 @@
+{
+  "name": "lycwed-cordova-plugin-infoplist",
+  "version": "1.0.0",
+  "description": "Add missed permissions for ios into info.plist.",
+  "cordova": {
+    "id": "lycwed-cordova-plugin-infoplist",
+    "platforms": ["ios"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lycwed/lycwed-cordova-plugin-infoplist.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova",
+    "plugin",
+    "plist"
+  ],
+  "author": {
+    "name": "Yves Lechevalier",
+    "url": "https://github.com/lycwed"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lycwed/lycwed-cordova-plugin-infoplist/issues"
+  },
+  "homepage": "https://github.com/lycwed/lycwed-cordova-plugin-infoplist"
+}

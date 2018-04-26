@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="lycwed-cordova-pods-dependencies" version="1.0.0" 
+    xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>lycwed-cordova-plugin-infoplist</name>
+    <description>Add missed permissions for ios into info.plist.</description>
+    <platform name="ios">
+        <edit-config target="NSLocationAlwaysUsageDescription" file="*-Info.plist" mode="merge" overwrite="true">
+            <string>Allow app to access the user’s location.</string>
+        </edit-config>
+        <edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge" overwrite="true">
+            <string>Allow app to access the user’s location.</string>
+        </edit-config>
+    </platform>
+</plugin>
